@@ -1,0 +1,85 @@
+PrgState:
+Execution Stack: [(int v;(v=2;print(v)))]
+Symobls Table: {}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [(v=2;print(v)), int v]
+Symobls Table: {}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [(v=2;print(v))]
+Symobls Table: {v=0}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [print(v), v=2]
+Symobls Table: {v=0}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [print(v)]
+Symobls Table: {v=2}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: []
+Symobls Table: {v=2}
+Output: [2]
+File Table: {}
+PrgState:
+Execution Stack: [(bool a;(int v;(a=true;((IF(a) THEN(v=2)ELSE(v=3));print(v)))))]
+Symobls Table: {}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [(int v;(a=true;((IF(a) THEN(v=2)ELSE(v=3));print(v)))), bool a]
+Symobls Table: {}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [(int v;(a=true;((IF(a) THEN(v=2)ELSE(v=3));print(v))))]
+Symobls Table: {a=false}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [(a=true;((IF(a) THEN(v=2)ELSE(v=3));print(v))), int v]
+Symobls Table: {a=false}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [(a=true;((IF(a) THEN(v=2)ELSE(v=3));print(v)))]
+Symobls Table: {a=false, v=0}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [((IF(a) THEN(v=2)ELSE(v=3));print(v)), a=true]
+Symobls Table: {a=false, v=0}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [((IF(a) THEN(v=2)ELSE(v=3));print(v))]
+Symobls Table: {a=true, v=0}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [print(v), (IF(a) THEN(v=2)ELSE(v=3))]
+Symobls Table: {a=true, v=0}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [print(v), v=2]
+Symobls Table: {a=true, v=0}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: [print(v)]
+Symobls Table: {a=true, v=2}
+Output: []
+File Table: {}
+PrgState:
+Execution Stack: []
+Symobls Table: {a=true, v=2}
+Output: [2]
+File Table: {}
